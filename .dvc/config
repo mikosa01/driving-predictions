@@ -1,2 +1,9 @@
 [cache]
     dir = /Users/mikosa/mycache
+[core]
+    remote = carlake
+['remote "azure-remote"']
+    url = azure://car-sales-data/sp=racw&st=2024-11-27T06:08:21Z&se=2024-12-03T14:08:21Z&sv=2022-11-02&sr=c&sig=io6SlnQVCy4lGE0JoddXzI%2FbUGLBwH50i1KGo0WWnG8%3D
+    account_name = carsale
+['remote "carlake"']
+    url = azure://car-sales-data/cars
